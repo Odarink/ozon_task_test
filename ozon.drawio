@@ -295,7 +295,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Data Layers var2" id="H0LmjfQC9ft53BEX3KVK">
-    <mxGraphModel dx="1689" dy="1254" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="665" dy="494" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="bK93OMBFpLh60yrvHaXL-0" />
         <mxCell id="bK93OMBFpLh60yrvHaXL-1" parent="bK93OMBFpLh60yrvHaXL-0" />
@@ -410,7 +410,7 @@
         <mxCell id="bK93OMBFpLh60yrvHaXL-52" value="DDS" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="bK93OMBFpLh60yrvHaXL-18">
           <mxGeometry x="40" y="260" width="960" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="bK93OMBFpLh60yrvHaXL-53" value="Справочник товар - категория&lt;div&gt;(stg_category)&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="bK93OMBFpLh60yrvHaXL-52">
+        <mxCell id="bK93OMBFpLh60yrvHaXL-53" value="Справочник товар - категория&lt;div&gt;(dds_category)&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="bK93OMBFpLh60yrvHaXL-52">
           <mxGeometry x="60" y="20" width="220" height="160" as="geometry">
             <mxRectangle x="40" y="40" width="200" height="40" as="alternateBounds" />
           </mxGeometry>
@@ -427,7 +427,7 @@
         <mxCell id="bK93OMBFpLh60yrvHaXL-57" value="Название&amp;nbsp;категории" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="bK93OMBFpLh60yrvHaXL-53">
           <mxGeometry y="130" width="220" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="bK93OMBFpLh60yrvHaXL-58" value="Таблица фактических продаж&lt;div&gt;(stg_sales)&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="bK93OMBFpLh60yrvHaXL-52">
+        <mxCell id="bK93OMBFpLh60yrvHaXL-58" value="Таблица фактических продаж&lt;div&gt;(dds_sales)&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="bK93OMBFpLh60yrvHaXL-52">
           <mxGeometry x="340" y="20" width="220" height="160" as="geometry">
             <mxRectangle x="280" y="40" width="200" height="40" as="alternateBounds" />
           </mxGeometry>
@@ -444,7 +444,7 @@
         <mxCell id="bK93OMBFpLh60yrvHaXL-62" value="Сумма продажи" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="bK93OMBFpLh60yrvHaXL-58">
           <mxGeometry y="130" width="220" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="bK93OMBFpLh60yrvHaXL-63" value="Таблица с рекламными вложениями продавцов (stg_&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;marketing)&lt;/span&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="bK93OMBFpLh60yrvHaXL-52">
+        <mxCell id="bK93OMBFpLh60yrvHaXL-63" value="Таблица с рекламными вложениями продавцов (dds_&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;marketing)&lt;/span&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="bK93OMBFpLh60yrvHaXL-52">
           <mxGeometry x="610" y="20" width="320" height="130" as="geometry">
             <mxRectangle x="160" y="40" width="200" height="40" as="alternateBounds" />
           </mxGeometry>
@@ -508,21 +508,6 @@
         </mxCell>
         <mxCell id="bK93OMBFpLh60yrvHaXL-81" value="Сумма рекламы" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="bK93OMBFpLh60yrvHaXL-78">
           <mxGeometry y="100" width="320" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="uwes8QOFkfWGBno_Qg6a-0" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="bK93OMBFpLh60yrvHaXL-18" source="bK93OMBFpLh60yrvHaXL-38" target="bK93OMBFpLh60yrvHaXL-53">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="uwes8QOFkfWGBno_Qg6a-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="bK93OMBFpLh60yrvHaXL-18" source="bK93OMBFpLh60yrvHaXL-43" target="bK93OMBFpLh60yrvHaXL-58">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="220" y="230" as="sourcePoint" />
-            <mxPoint x="220" y="290" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="uwes8QOFkfWGBno_Qg6a-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="bK93OMBFpLh60yrvHaXL-18" source="bK93OMBFpLh60yrvHaXL-48" target="bK93OMBFpLh60yrvHaXL-63">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="500" y="230" as="sourcePoint" />
-            <mxPoint x="500" y="290" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="bK93OMBFpLh60yrvHaXL-82" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;jumpStyle=gap;flowAnimation=1;" edge="1" parent="bK93OMBFpLh60yrvHaXL-1" source="bK93OMBFpLh60yrvHaXL-2" target="bK93OMBFpLh60yrvHaXL-18">
           <mxGeometry relative="1" as="geometry" />
