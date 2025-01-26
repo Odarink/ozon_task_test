@@ -6,3 +6,4 @@ SELECT
     'source_system_3' AS source
 FROM sys3.stg_category
 ON DUPLICATE KEY UPDATE load_dt = now();
+

@@ -9,5 +9,5 @@ CREATE TABLE sys3.hub_category
 )
 ENGINE = ReplacingMergeTree(load_dt) -- для удаления дублей по строкам
 --ENGINE = MergeTree(load_dt)
-PARTITION BY toYYYYMM(load_dt)
-ORDER BY (hk_category_id, load_dt);
+PARTITION BY (load_dt)
+ORDER BY (hk_category_id);
