@@ -7,4 +7,5 @@ SELECT
     номер_заказа,
     сумма_продажи
 --FROM sys1.sales
-FROM sys3.sales;
+FROM sys3.sales
+WHERE дата::date = {{ дата_инкремента }};

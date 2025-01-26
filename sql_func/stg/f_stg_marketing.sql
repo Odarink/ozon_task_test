@@ -6,4 +6,5 @@ SELECT
     номер_товара,
     сумма_рекламы
 --FROM sys2.marketing
-FROM sys3.marketing;
+FROM sys3.marketing
+WHERE дата::date = {{ дата_инкремента }};
