@@ -4,5 +4,4 @@ SELECT distinct
     номер_заказа as sale_id,
     now() AS load_dt,
     'source_system_1' AS source
-FROM sys1.stg_sales
-ON DUPLICATE KEY UPDATE load_dt = now();
+FROM sys1.stg_sales;

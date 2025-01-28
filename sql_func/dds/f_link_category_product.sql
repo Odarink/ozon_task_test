@@ -10,5 +10,4 @@ FROM
 JOIN
     sys3.hub_category hc ON cityHash64(sc.категория_товара) = hc.hk_category_id
 JOIN
-    sys3.hub_product hp ON cityHash64(sc.категория_товара) = hp.hk_product_id
-ON DUPLICATE KEY UPDATE load_dt = now();
+    sys3.hub_product hp ON cityHash64(sc.категория_товара) = hp.hk_product_id;

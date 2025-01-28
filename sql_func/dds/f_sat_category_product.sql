@@ -15,5 +15,4 @@ JOIN
 JOIN
     sys3.link_category_product lcp ON hs.hk_category_id = lcp.hk_category_id AND hp.hk_product_id = lcp.hk_product_id
 left JOIN
-    sys3.sat_category_product scp ON lcp.hk_link_category_product = scp.hk_link_category_product
-ON DUPLICATE KEY UPDATE load_dt = now();
+    sys3.sat_category_product scp ON lcp.hk_link_category_product = scp.hk_link_category_produc;

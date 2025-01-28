@@ -7,5 +7,4 @@ SELECT distinct
 FROM
     sys3.stg_category sc
 JOIN
-    sys3.hub_category hc ON cityHash64(sc.категория_товара) = hc.hk_category_id
-ON DUPLICATE KEY UPDATE load_dt = now();
+    sys3.hub_category hc ON cityHash64(sc.категория_товара) = hc.hk_category_id;

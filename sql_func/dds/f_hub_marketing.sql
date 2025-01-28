@@ -5,5 +5,4 @@ SELECT
     дата::date as marketing_dt,
     now() AS load_dt,
     'source_system_2' AS source
-FROM sys1.stg_marketing
-ON DUPLICATE KEY UPDATE load_dt = now();
+FROM sys1.stg_marketing;

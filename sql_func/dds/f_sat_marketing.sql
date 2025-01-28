@@ -7,5 +7,4 @@ SELECT
 FROM
     sys3.stg_marketing ss
 JOIN
-    sys3.hub_marketing hs ON cityHash64(ss.номер_товара, ss.дата) = hs.hk_marketing_id
-ON DUPLICATE KEY UPDATE load_dt = now();
+    sys3.hub_marketing hs ON cityHash64(ss.номер_товара, ss.дата) = hs.hk_marketing_id;

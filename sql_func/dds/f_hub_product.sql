@@ -4,5 +4,4 @@ SELECT distinct
     номер_товара as product_id,
     now() AS load_dt,
     'source_system_3' AS source
-FROM sys3.stg_category
-ON DUPLICATE KEY UPDATE load_dt = now();
+FROM sys3.stg_category;
