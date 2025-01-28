@@ -11,3 +11,4 @@ JOIN
     sys3.hub_sales hs ON cityHash64(ss.номер_заказа) = hs.hk_sale_id
 JOIN
     sys3.hub_product hp ON cityHash64(ss.номер_товара) = hp.hk_product_id;
+OPTIMIZE TABLE sys3.link_sales_product;

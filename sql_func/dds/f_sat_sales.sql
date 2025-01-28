@@ -8,3 +8,4 @@ FROM
     sys3.stg_sales ss
 JOIN
     sys3.hub_sales hs ON cityHash64(ss.номер_заказа) = hs.hk_sale_id;
+OPTIMIZE TABLE sys3.sat_sales;

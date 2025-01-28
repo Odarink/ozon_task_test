@@ -5,3 +5,4 @@ SELECT distinct
     now() AS load_dt,
     'source_system_1' AS source
 FROM sys1.stg_sales;
+OPTIMIZE TABLE sys3.hub_sales;

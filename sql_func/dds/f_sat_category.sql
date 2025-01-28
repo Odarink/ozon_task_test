@@ -8,3 +8,4 @@ FROM
     sys3.stg_category sc
 JOIN
     sys3.hub_category hc ON cityHash64(sc.категория_товара) = hc.hk_category_id;
+OPTIMIZE TABLE sys3.sat_category;

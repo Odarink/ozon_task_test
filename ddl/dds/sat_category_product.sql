@@ -4,7 +4,6 @@ CREATE TABLE sys3.sat_category_product
 (
     hk_link_category_product    UInt64,
     date_from                   DateTime,
-    date_to                     DateTime,
     load_dt                     DateTime,
     source                      String
 )
