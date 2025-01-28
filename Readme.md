@@ -4,11 +4,11 @@
 
 
 Схема модели данных и слоев: 
-[**Увеличить изображение**](/schema/DataModel.svg)
+[**Перейти к схеме**](schema/DataModel.svg)
 
-![Alt](/schema/DataModel.svg)
+[![Alt](schema/DataModel.svg)](schema/DataModel.svg)
 
 Схема ETL потока: 
-[**Увеличить изображение**](/schema/ETL.svg)
+[**Перейти к схеме**](schema/ETL.svg)
 
-![Alt](/schema/ETL.svg)
+[![Alt](schema/ETL.svg)](schema/ETL.svg)
