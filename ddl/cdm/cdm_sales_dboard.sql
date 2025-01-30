@@ -8,4 +8,4 @@ CREATE TABLE IF NOT EXISTS sys3.cdm_sales_dboard
     стоимость_рекламы Decimal(18,2)
 ) ENGINE = MergeTree()
 PARTITION BY (дата)
-ORDER BY (номер_товара);
+ORDER BY (номер_заказа, номер_товара);
